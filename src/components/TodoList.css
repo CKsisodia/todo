@@ -1,0 +1,40 @@
+.todolist-addtodo-edittodo {
+    display: grid;
+    height: 95vh;
+    width: 95%;
+    grid-template-areas: "new list"
+        "new list"
+        "edit list"
+        "edit list";
+    gap: 10px;
+
+
+}
+
+.newToDo {
+    color: aqua;
+    grid-area: new;
+    width: 100%;
+    background-color: red;
+    margin: 15px;
+    align-self: center;
+    justify-content: center;
+}
+
+.editedtodo {
+    grid-area: edit;
+    width: 100%;
+    background-color: blue;
+    margin: 15px;
+    align-self: center;
+    justify-content: center;
+}
+
+.to-do-list {
+    grid-area: list;
+    width: 100%;
+    background-color: yellow;
+    margin: 15px;
+    align-self: center;
+    justify-content: right;
+}
